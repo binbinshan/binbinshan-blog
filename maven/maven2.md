@@ -40,7 +40,7 @@ mvn archetype:generate -DgroupId=com.binbinshan.maven -DartifactId=helloWorld -D
 * pom.xml 文件是 maven 的核心配置文件，是这个项目的 Project Object Model。
 
 <div style="width:500px;height:500px;display:flex;justify-content:center;align-items:center;">
-    <img src="https://github.com/binbinshan/binbinshan-blog/maven/img/16308391670305/16308401703908.jpg" />
+    <img src="https://github.com/binbinshan/binbinshan-blog/blob/master/img/16308391670305/16308401703908.jpg" />
 </div>
 
 ### 3.pom.xml的简单介绍
@@ -96,7 +96,7 @@ java -cp target/helloWorld-1.0-SNAPSHOT.jar com.binbinshan.maven.App
 一张图解释Maven的体系结构
 
 <div style="width:500px;height:200px;display:flex;justify-content:center;align-items:center;">
-    <img src="https://github.com/binbinshan/binbinshan-blog/maven/img/16308391670305/16308420669711.jpg" />
+    <img src="https://github.com/binbinshan/binbinshan-blog/blob/master/img/16308391670305/16308420669711.jpg" />
 </div>
 
 
@@ -112,12 +112,12 @@ Tips: Maven远程中央仓库的地址配置可以在 %M2_HOME%/lib 下面找到
 前面快速入门中，使用的是命令的方式生成Maven工程，这里通过 IntelliJ IDEA来生成一个Maven工程。
 1. 使用archetype quickstart原型创建
 <div style="width:678px;height:600px;display:flex;justify-content:center;align-items:center;">
-    <img src="https://github.com/binbinshan/binbinshan-blog/maven/img/16308391670305/16308428948089.jpg" />
+    <img src="https://github.com/binbinshan/binbinshan-blog/blob/master/img/16308391670305/16308428948089.jpg" />
 </div>
 
 2. 设置GroupId、ArtifactId、Version
 <div style="width:678px;height:600px;display:flex;justify-content:center;align-items:center;">
-    <img src="https://github.com/binbinshan/binbinshan-blog/maven/img/16308391670305/16308430541945.jpg" />
+    <img src="https://github.com/binbinshan/binbinshan-blog/blob/master/img/16308391670305/16308430541945.jpg" />
 </div>
 
 3. 编写测试代码
@@ -148,7 +148,7 @@ public class AppTest {
 4. 创建Maven 命令
 创建一个 Maven clean package
 <div style="width:500px;height:300px;display:flex;justify-content:center;align-items:center;">
-    <img src="https://github.com/binbinshan/binbinshan-blog/maven/img/16308391670305/16308437089821.jpg" ></img>
+    <img src="https://github.com/binbinshan/binbinshan-blog/blob/master/img/16308391670305/16308437089821.jpg" ></img>
 </div>
 
 执行后，Maven 就会进行clean 和 package
