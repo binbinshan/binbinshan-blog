@@ -1,5 +1,17 @@
 # Maven系列（六）开发流程管理
-
+- [Maven系列（六）开发流程管理](#maven系列六开发流程管理)
+  - [1.使用surefire插件进行单元测试](#1使用surefire插件进行单元测试)
+    - [1.1 跳过单元测试](#11-跳过单元测试)
+    - [1.2 指定单元测试](#12-指定单元测试)
+    - [1.3 自定义包含与排除测试类](#13-自定义包含与排除测试类)
+  - [2.使用jetty插件测试本地web工程](#2使用jetty插件测试本地web工程)
+    - [2.1 加入jetty插件的配置](#21-加入jetty插件的配置)
+    - [2.2设置pluginGroups](#22设置plugingroups)
+    - [2.3 执行mvn jetty:run](#23-执行mvn-jettyrun)
+  - [3.使用cargo插件部署web工程](#3使用cargo插件部署web工程)
+    - [3.1 引入cargo插件](#31-引入cargo插件)
+    - [3.2 本地tomcat配置](#32-本地tomcat配置)
+  - [4.maven的版本管理](#4maven的版本管理)
 ## 1.使用surefire插件进行单元测试
 
 通常我们在开发完成之后，都会编写一些单元测试，然后可以利用surefire插件进行单元测试。在default生命周期的test阶段，会运行surefire插件的test goal，然后执行src/test/java下面的所有单元测试的。
